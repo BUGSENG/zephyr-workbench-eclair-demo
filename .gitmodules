@@ -1,0 +1,3 @@
+[submodule "ZiSE25"]
+	path = ZiSE25
+	url = https://github.com/BUGSENG/ZiSE25

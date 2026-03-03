@@ -1,0 +1,52 @@
+{
+  "configs": [
+    {
+      "name": "Config 1",
+      "description_md": "",
+      "main_config": {
+        "type": "preset",
+        "rulesets": [
+          {
+            "source": {
+              "type": "repo-path",
+              "repo": "BUGSENG presets",
+              "path": "presets/zephyr/rulesets/first_analysis.ecl"
+            }
+          }
+        ],
+        "variants": [
+          {
+            "source": {
+              "type": "repo-path",
+              "repo": "BUGSENG presets",
+              "path": "presets/zephyr/variant.ecl"
+            }
+          }
+        ],
+        "tailorings": []
+      },
+      "reports": [
+        "ALL"
+      ]
+    },
+    {
+      "name": "Config 2",
+      "description_md": "",
+      "main_config": {
+        "type": "zephyr-ruleset",
+        "ruleset": "ECLAIR_RULESET_FIRST_ANALYSIS"
+      },
+      "reports": [
+        "ALL"
+      ]
+    }
+  ],
+  "current_config_index": 0,
+  "repos": {
+    "BUGSENG presets": {
+      "origin": "https://github.com/BUGSENG/zephyr-workbench-eclair-presets",
+      "ref": "main",
+      "rev": "7c8b41c235a7e4d624b12453f497e7f65cd53c84"
+    }
+  }
+}

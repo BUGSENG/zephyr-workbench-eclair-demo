@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "workbench-demo-workspace",
+      "path": "../"
+    },
+    {
+      "name": "hello_world",
+      "path": "./hello_world"
+    },
+    {
+      "name": "ZiSE25",
+      "path": "./ZiSE25"
+    }
+  ]
+}

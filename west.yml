@@ -1,0 +1,16 @@
+manifest:
+  remotes:
+  - name: upstream
+    url-base: https://github.com/zephyrproject-rtos
+  - name: origin
+    url-base: https://github.com/BUGSENG
+
+  projects:
+  - name: zephyr
+    remote: origin
+    revision: eclair-sca-fixes
+    #revision: eclair-sca-fixes-VERY-INVALID
+    import: true
+
+  self:
+    path: demo
