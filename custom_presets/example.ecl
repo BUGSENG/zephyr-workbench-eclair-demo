@@ -11,6 +11,8 @@ options:
   default: true
 ```
 
+# Garbage here to make some quick and dirty tests.
+
 #if(option_1, print('Option 1 is enabled'), print('Option 1 is disabled'))
 
 -disable=MC4.R20.7
