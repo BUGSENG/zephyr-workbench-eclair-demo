@@ -15,4 +15,6 @@ options:
 
 #if(option_1, print('Option 1 is enabled'), print('Option 1 is disabled'))
 
--disable=MC4.R20.7
+#-disable=MC4.R20.7
+
+-show=enabled
